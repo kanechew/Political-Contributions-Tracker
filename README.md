@@ -20,6 +20,8 @@ Track political campaign contributions based on data from the Federal Election C
 
 ### Prerequistes
 
+
+
 ### Installation 
 is the next section in an effective README. Tell other users how to install your project locally. Optionally, include a gif to make the process even more clear for other people.
 
@@ -28,15 +30,12 @@ The next section is usage, in which you instruct other people on how to use your
 
 ## Built With
 
-    Dropwizard - The web framework used
-    Maven - Dependency Management
-    ROME - Used to generate RSS Feeds
+* [PyCharm](https://www.jetbrains.com/pycharm/) - Python IDE
+* [Cloud9](https://c9.io/) - Cloud Development Environment
 
 ## Contributing
 
 N.A
-
-We use SemVer for versioning. For the versions available, see the tags on this repository.
 
 ## Author
 
@@ -44,7 +43,7 @@ Kane Chew
 
 ## License
 
-This project is licensed under the GNU AGPL v3.0 License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the GNU AGPL v3.0 License - see the [LICENSE.md](LICENSE) file for details
 
 ## Acknowledgments
 
