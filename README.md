@@ -41,7 +41,15 @@ See [header](header file) file for details of the header.
 For more details on the file format:
 http://classic.fec.gov/finance/disclosure/metadata/DataDictionaryContributionsbyIndividuals.shtml
 
-## Output File
+## Output Files
+Running the shell script will produce two out files:
+
+* 'medianvals_by_zip.txt'
+* 'medianvals_by_date.txt'
+
+### medianvals_by_zip.txt
+
+### medianvals_by_date.txt
 
 
 ## Built With
