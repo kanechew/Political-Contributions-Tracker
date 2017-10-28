@@ -42,12 +42,14 @@ For more details on the file format:
 http://classic.fec.gov/finance/disclosure/metadata/DataDictionaryContributionsbyIndividuals.shtml
 
 ## Output Files
-Running the shell script will produce two out files:
+Running the shell script will produce two .txt files:
 
-* 'medianvals_by_zip.txt'
-* 'medianvals_by_date.txt'
+* medianvals_by_zip.txt
+* medianvals_by_date.txt
 
 ### medianvals_by_zip.txt
+
+#### Format
 
 ### medianvals_by_date.txt
 
