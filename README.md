@@ -23,15 +23,26 @@ Track political campaign contributions based on data from the Federal Election C
 * Linux or Unix system
 * If you are using a Windows system, consider tools such as Cygwin or Docker, or a free online IDE such as Cloud9
 
-### Installation 
-Download the folder 
+### Installation
 
-$ chmod +x run.sh to make the script executable.
-
-$ ./run.sh" to activate the script.
+* No local installation required. 
+* Download the folder ___  
 
 ## Usage
-The next section is usage, in which you instruct other people on how to use your project after they’ve installed it. This would also be a good place to include screenshots of your project in action.
+
+$ chmod +x run.sh to make the script executable.
+$ ./run.sh" to activate the script.
+
+## Input File
+The input file, `itcont.txt` is in pipe-demlimited format and conform to the data dictionary as described by the FEC.
+
+See [header](header file) file for details of the header.
+
+For more details on the file format:
+http://classic.fec.gov/finance/disclosure/metadata/DataDictionaryContributionsbyIndividuals.shtml
+
+## Output File
+
 
 ## Built With
 
