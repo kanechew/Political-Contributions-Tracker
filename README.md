@@ -20,6 +20,12 @@ Track political campaign contributions based on data from the Federal Election C
 
 ### Prerequistes
 
+### Linux
+
+### Mac
+
+### Windows
+
 
 
 ### Installation 
@@ -39,15 +45,19 @@ N.A
 
 ## Author
 
-Kane Chew
+* Kane Chew
 
 ## License
 
-This project is licensed under the GNU AGPL v3.0 License - see the [LICENSE.md](LICENSE) file for details
+* This project is licensed under the GNU AGPL v3.0 License - see the [LICENSE.md](LICENSE) file for details
 
 ## Acknowledgments
 
-Folks from INSIGHT
+* Folks from INSIGHT
+
+## Links
+
+* [PyCharm](https://www.jetbrains.com/pycharm/) - Python IDE
 
 
 
