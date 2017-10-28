@@ -20,16 +20,15 @@ Track political campaign contributions based on data from the Federal Election C
 
 ### Prerequistes
 
-### Linux
-
-### Mac
-
-### Windows
-
-
+* Linux or Unix system
+* If you are using a Windows system, consider tools such as Cygwin or Docker, or a free online IDE such as Cloud9
 
 ### Installation 
-is the next section in an effective README. Tell other users how to install your project locally. Optionally, include a gif to make the process even more clear for other people.
+Download the folder 
+
+$ chmod +x run.sh to make the script executable.
+
+$ ./run.sh" to activate the script.
 
 ## Usage
 The next section is usage, in which you instruct other people on how to use your project after they’ve installed it. This would also be a good place to include screenshots of your project in action.
