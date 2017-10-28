@@ -1,7 +1,7 @@
 # Political-Contributions-Tracker
 
 ## Table of Contents
-1. [Introduction](README.md##introduction)
+1. [Introduction](README.md#introduction)
 2. [Challenge summary](README.md#challenge-summary)
 3. [Details of challenge](README.md#details-of-challenge)
 4. [Input file](README.md#input-file)
