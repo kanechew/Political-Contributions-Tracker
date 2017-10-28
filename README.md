@@ -47,12 +47,21 @@ Running the shell script will produce two .txt files:
 * medianvals_by_zip.txt
 * medianvals_by_date.txt
 
-### medianvals_by_zip.txt
+## medianvals_by_zip.txt
 
-#### Format
+### Description
 
-### medianvals_by_date.txt
+### Format
 
+### Test Sample
+
+## medianvals_by_date.txt
+
+### Description
+
+### Format
+
+### Test Sample
 
 ## Built With
 
