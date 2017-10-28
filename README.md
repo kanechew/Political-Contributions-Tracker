@@ -34,24 +34,21 @@ The next section is usage, in which you instruct other people on how to use your
 
 ## Contributing
 
-Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
-Versioning
+N.A
 
 We use SemVer for versioning. For the versions available, see the tags on this repository.
 
 ## Author
 
-    Billie Thompson - Initial work - PurpleBooth
+Kane Chew
 
-See also the list of contributors who participated in this project.
 ## License
 
-This project is licensed under the MIT License - see the LICENSE.md file for details
+This project is licensed under the  License - see the [LICENSE.md](LICENSE.md) file for details
+
 ## Acknowledgments
 
-    Hat tip to anyone who's code was used
-    Inspiration
-    etc
+Folks from INSIGHT
 
 
 
