@@ -27,14 +27,14 @@ Inline Comments and docstrings are appended to aid code readability.
 Absolute imports were used where applicable.
 
 ### Abstraction & Encapsulation
-As part of Object Oriented Programming (OOP) methodology, the source code is partitioned into separate user-defined functions that are called within the 'main()' function.
+As part of Object Oriented Programming (OOP) methodology, the source code is partitioned into separate user-defined functions that are called within the `main()` function.
 
 Since the two output files are not written in parallel, each output file can be written in separate functions. This aids in the debugging and testing of code to verify output file 1 and 2 indepedently.
 
 ### Choice of Data Structures
 An important consideration for this data problem is the choice of data structures to store the variables from the input files.
 
-Dictionaries of lists were chosen to store the relevant variables, with 'cmte_id' as the key for every dictionary to to avoid confusion.
+Dictionaries of lists were chosen to store the relevant variables, with `cmte_id` as the key for every dictionary to to avoid confusion.
 
 At the same time, Dictionaries of lists provide greater flexibility and versatibility for future data processing needs. 
 
