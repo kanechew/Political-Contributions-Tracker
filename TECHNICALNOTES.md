@@ -5,6 +5,8 @@
 2. [Naming Convention](TECHNICALNOTES.md#naming-convention)
 3. [Design Considerations](TECHNICALNOTES.md#design-considerations)
 4. [Packages](TECHNICALNOTES.md#packages)
+    1. A nested numbered list
+    2. Which is numbered
 	3b.[Abstraction & Encapsulation](TECHNICALNOTES.md#abstraction-&-encapsulation)
 	3c.[Choice of Data Structures](TECHNICALNOTES.md#choice-of-data-structures)
 5. [Input Considerations](TECHNICALNOTES.md#input-considerations)
