@@ -6,7 +6,7 @@
 3. [Usage](README.md#usage)
 4. [Input File](README.md#input-file)
 5. [Output Files](README.md#output-files)
-6. [Example](README.md#example)
+6. [Test Cases](README.md#test-cases)
 7. [Built With](README.md#built-with)
 8. [Contributing](README.md#contributing)
 9. [Author](README.md#author)
@@ -59,8 +59,17 @@ Running the shell script will produce two .txt files:
 ### medianvals_by_zip.txt
 
 #### Description
+For each input file line, the running median of contributions, total number of transactions and total amount of contributions streaming in so far for that recipient and zip code is calcualted. The calculated fields is formatted into a pipe-delimited line and written to this ouput file in the same order as the input line appeared in the input file.
 
 #### Format
+The first output file medianvals_by_zip.txt should contain the same number of lines or records as the input data file minus any records that were ignored as a result of the 'Input file considerations.'
+
+Each line of this file should contain these fields:
+* Recipient of the contribution (or CMTE_ID from the input file)
+* 5-digit zip code of the contributor (or the first five characters of the ZIP_CODE field from the input file)
+* Running median of contributions received by recipient from the contributor's zip code streamed in so far. 
+* Total number of transactions received by recipient from the contributor's zip code streamed in so far
+* Total amount of contributions received by recipient from the contributor's zip code streamed in so far
 
 #### Test Sample
 
@@ -70,7 +79,8 @@ Running the shell script will produce two .txt files:
 
 ### Format
 
-### Test Sample
+### Test Cases
+
 
 ## Built With
 
