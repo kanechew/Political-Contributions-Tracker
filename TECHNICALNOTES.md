@@ -4,14 +4,13 @@
 1. [Introduction](TECHNICALNOTES.md#introduction)
 2. [Naming Convention](TECHNICALNOTES.md#naming-convention)
 3. [Design Considerations](TECHNICALNOTES.md#design-considerations)
-4. [Packages](TECHNICALNOTES.md#packages)
-    1. A nested numbered list
-    2. Which is numbered
-	3b.[Abstraction & Encapsulation](TECHNICALNOTES.md#abstraction-&-encapsulation)
-	3c.[Choice of Data Structures](TECHNICALNOTES.md#choice-of-data-structures)
-5. [Input Considerations](TECHNICALNOTES.md#input-considerations)
-6. [Computational Efficiency](TECHNICALNOTES.md#computational-efficiency)
-7. [Alternative Implementation](TECHNICALNOTES.md#alternative-implementation)
+    1. [Packages](TECHNICALNOTES.md#packages)
+    2. [Abstraction & Encapsulation](TECHNICALNOTES.md#abstraction-&-encapsulation)
+    3. [Choice of Data Structures](TECHNICALNOTES.md#choice-of-data-structures)
+    4. [Choice of Algorithm](TECHNICALNOTES.md#choice-of-algorithm)
+4. [Input Considerations](TECHNICALNOTES.md#input-considerations)
+5. [Computational Efficiency](TECHNICALNOTES.md#computational-efficiency)
+6. [Alternative Implementation](TECHNICALNOTES.md#alternative-implementation)
 
 1. A numbered list
     1. A nested numbered list
