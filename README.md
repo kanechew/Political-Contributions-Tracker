@@ -30,6 +30,16 @@ This program extracts and calculates individual contributions towards political 
 * No installation required locally
 * Download the Github folder to execute `run.sh`, `run_tests.sh` or `find_political_donors.py` locally
 
+### Python Packages
+
+```
+from collections import defaultdict
+from collections import OrderedDict
+from datetime import datetime
+import math
+import statistics
+```
+
 ## Usage
 
 For Mac:
