@@ -6,7 +6,7 @@
 3. [Usage](README.md#usage)
 4. [Input File](README.md#input-file)
 5. [Output Files](README.md#output-files)
-6. [Test Cases](README.md#test-cases)
+6. [User Test Cases](README.md#user-test-cases)
 7. [Built With](README.md#built-with)
 8. [Contributing](README.md#contributing)
 9. [Author](README.md#author)
@@ -77,29 +77,44 @@ Running the shell script will produce two .txt files:
 * medianvals_by_date.txt
 
 ### medianvals_by_zip.txt
+The program writes to the first output file named `medianvals_by_zip.txt`. 
 
 #### Description
 For each input file line, the running median of contributions, total number of transactions and total amount of contributions streaming in so far for that recipient and zip code is calcualted. The calculated fields is formatted into a pipe-delimited line and written to this ouput file in the same order as the input line appeared in the input file.
 
 #### Format
-The first output file medianvals_by_zip.txt should contain the same number of lines or records as the input data file minus any records that were ignored as a result of the [Input file considerations](TECHNICALNOTES.md#input-file-considerations).
+The first output file medianvals_by_zip.txt should contain the same number of lines or records as the input data file minus any records that were ignored as a result of the [input file considerations](TECHNICALNOTES.md#input-file-considerations).
 
-Each line of this file should contain these fields:
-* Recipient of the contribution (or CMTE_ID from the input file)
-* 5-digit zip code of the contributor (or the first five characters of the ZIP_CODE field from the input file)
+Each line of this file contain these fields:
+* Recipient of the contribution (or `cmte_id` from the input file)
+* 5-digit zip code of the contributor (or the first five characters of the `zip_code` field from the input file)
 * Running median of contributions received by recipient from the contributor's zip code streamed in so far. 
 * Total number of transactions received by recipient from the contributor's zip code streamed in so far
 * Total amount of contributions received by recipient from the contributor's zip code streamed in so far
 
-#### Test Sample
-
 ## medianvals_by_date.txt
+The program also writes to a second output file named `medianvals_by_date.txt`. 
 
 ### Description
+Each line of this second output file lists every unique combination of date and recipient from the input file and then the calculated total contributions and median contribution for that combination of date and recipient.
 
 ### Format
+The fields on each pipe-delimited line of medianvals_by_date.txt should be date, recipient, total number of transactions, total amount of contributions and median contribution. 
 
-### Test Cases
+Each line of this file contain these fields:
+* Recipient of the contribution (or `cmte_id` from the input file)
+* Date of the contribution (or `transaction_dt` from the input file)
+    median of contributions received by recipient on that date. Median calculations should be rounded to the whole dollar (drop anything below $.50 and round anything from $.50 and up to the next dollar)
+    total number of transactions received by recipient on that date
+    total amount of contributions received by recipient on that date
+
+
+### Differences between first and second output files
+Unlike the first output file, the second output file have lines sorted alphabetical by recipient and then chronologically by date.
+
+Also, unlike the first output file, every line in the medianvals_by_date.txt file is represented by a unique combination of day and recipient -- there should be no duplicates.
+
+### User Test Cases
 
 
 ## Built With
