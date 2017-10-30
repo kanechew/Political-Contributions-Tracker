@@ -23,11 +23,12 @@ The input file and expected output files for each test case are stored in separa
 
 ## Test Variables & Values
 
-| Test Case  | # of Rows| Test Variables | Input Consideration|  Test Values |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
-| 1 | |  |   |   |
-|  2|   |   |  |   |
-|   3|  |   |   |   |
-|   4|  |   |   |   |
-|   5|  |   |   |   |
-|   6|  |   |   |   |
+| Test Case | Row Count | Test Variables | Input Consideration | Test Values |
+| ----------| ----------| -------------- | ------------------- | ----------- |
+|  1        | 7         | other_id       |                |   |
+|         |         |        |                |   |
+|  2        | 14        | trans_dt       |  |   |
+|  3        | 14        | zip_code       |   |   |
+|  4        | 7         | cmte_id        |   |   |
+|  5        | 7         | trans_amt      |   |   |
+|  6        | 13        | Multiple       |   |   |
