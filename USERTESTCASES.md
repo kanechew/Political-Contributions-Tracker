@@ -38,15 +38,16 @@ The test cases are validated by executing the `run_tests.sh` file, located in `.
 |  6        | 13        | Multiple       | Multiple                 |         
 
 ## Test Values
-The test values are collated in [Test-Values.pdf](Test-Values.pdf)
+The test values are collated in [Test-Values.pdf](Test-Values.pdf).
 
 ## Input File Considerations
+The following considerations were given as part of the date problem:
 
 ### OTHER_ID
-* Because we are only interested in individual contributions, we only want records that have the field, OTHER_ID, set to empty. If the OTHER_ID field contains any other value, ignore the entire record and don't include it in any calculation
+* Because we are only interested in individual contributions, we only want records that have the field, OTHER_ID, set to empty * If the OTHER_ID field contains any other value, ignore the entire record and don't include it in any calculation
     
 ### TRANSACTION_DT
-* If TRANSACTION_DT is an invalid date (e.g., empty, malformed), you should still take the record into consideration when outputting the results of `medianvals_by_zip.txt` but completely ignore the record when calculating values for medianvals_by_date.txt
+* If TRANSACTION_DT is an invalid date (e.g., empty, malformed), you should still take the record into consideration when outputting the results of `medianvals_by_zip.txt` but completely ignore the record when calculating values for `medianvals_by_date.txt`
 
 * The transactions noted in the input file are not in any particular order, and in fact, can be out of order chronologically
     
