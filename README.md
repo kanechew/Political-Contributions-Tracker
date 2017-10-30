@@ -16,7 +16,7 @@
 11. [FAQ](README.md#faq)
 
 ## Introduction
-This program extracts and calculates individual contributions towards political campaigns from finance data downloaded from the Federal Election Commission.
+This program extracts and calculates individual contributions towards political campaigns from financial data downloaded from the Federal Election Commission.
 
 ## Getting Started
 
@@ -35,7 +35,7 @@ This program extracts and calculates individual contributions towards political 
 For Mac:
 Use a Terminal session to execute the `.sh` and `.py` files:
 
-1. Open `Applications` folder
+1. Open the `Applications` folder
 2. Open the `Utilities` folder
 3. Open the `Terminal` application
 
@@ -66,7 +66,7 @@ If you want to run/test the program with a different input file, you need to edi
 ```
 ### User Specified Input and Output Files
 # ---------------------------------------
-input_file      = 'itcont.txt'
+input_file = './input/itcont.txt'
 ```
 
 ## Output Files
