@@ -57,9 +57,8 @@ If you do not have the python statistics module installed, you would need to exe
 ## Input File
 The input file, `itcont.txt` is in pipe-demlimited format and conform to the data dictionary as described by the FEC.
 
-See [indiv_header_file.csv](indiv_header_file.csv) file for details of the header.
-
-See [Links](README.md#links) for more information about input file format.
+* See [indiv_header_file.csv](indiv_header_file.csv) file for details of the header
+* See [Links](README.md#links) for more information about input file format
 
 If you want to run/test the program with a different input file, you need to edit the name and location of the input file within the `python find_political_donors.py`:
 
@@ -82,7 +81,7 @@ The program writes to the first output file named `medianvals_by_zip.txt`.
 For each input file line, the running median of contributions, total number of transactions and total amount of contributions streaming in so far for that recipient and zip code is calcualted. The calculated fields is formatted into a pipe-delimited line and written to this ouput file in the same order as the input line appeared in the input file.
 
 #### Format
-The first output file medianvals_by_zip.txt should contain the same number of lines or records as the input data file minus any records that were ignored as a result of the [input file considerations](TECHNICALNOTES.md#input-file-considerations).
+The first output file medianvals_by_zip.txt should contain the same number of lines or records as the input data file minus any records that were ignored as a result of the [input file considerations](USERTESTCASES.md#input-file-considerations).
 
 Each line of this file contain these fields:
 * Recipient of the contribution (or CMTE_ID from the input file)
@@ -114,9 +113,8 @@ Note:
 * Median and Total amount of contributions should be rounded to the whole dollar (drop anything below $.50 and round anything from $.50 and up to the next dollar)
 
 ### Differences between first and second output files
-Unlike the first output file, the second output file have lines sorted alphabetical by recipient and then chronologically by date.
-
-Also, unlike the first output file, every line in the medianvals_by_date.txt file is represented by a unique combination of day and recipient -- there should be no duplicates.
+* Unlike the first output file, the second output file have lines sorted alphabetical by recipient and then chronologically by date.
+* Also, unlike the first output file, every line in the medianvals_by_date.txt file is represented by a unique combination of day and recipient -- there should be no duplicates.
 
 ### User Test Cases
 
