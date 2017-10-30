@@ -30,8 +30,9 @@ This program extracts and calculates individual contributions towards political 
 * No installation required locally
 * Download the Github folder to execute `run.sh`, `run_tests.sh` or `find_political_donors.py` locally
 
-## Usage (For Mac)
+## Usage
 
+For Mac:
 Use a Terminal session to execute the `.sh` and `.py` files:
 
 1. Open `Applications` folder
@@ -143,7 +144,6 @@ N.A
 ## Links
 
 * [Finance Data for U.S. Elections](http://classic.fec.gov/finance/disclosure/ftpdet.shtml)
-
 * [Details of Input File Format](http://classic.fec.gov/finance/disclosure/metadata/DataDictionaryContributionsbyIndividuals.shtml)
 
 ## FAQ
