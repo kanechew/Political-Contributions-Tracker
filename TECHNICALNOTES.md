@@ -45,8 +45,16 @@ For the extraction of 5 relevant variable values `CMTE_ID`, `ZIP_CODE`, `TRANSAC
 But since each line of text contains a fixed number of pipe delimiters, it is efficient to use simple string operations to extract substrings at fixed/regular intervals.
 
 ## Computational Efficiency
+Though beyond the scope of this data problem, it is important to consider the performance(speed) and efficiency(resource utilization) of the algorithm that is implemented as the size of the dataset grows. 
+
+For example, the size of the `itcont.txt` file from the 2016 archives is 3.56 GB and comprises of 7225 lines of records.
 
 ## Alternative Implementation
+As the size of the dataset grows and the number of users increases, it might be advantageous to consider writing the data from the input file into a SQL database.
+
+The process of database normalization will greatly reduce data redundancy and improve data integrity.
+
+This is demonstrated by [PCDatabase.db](PCDatabase.db), which is populated by the `itcont.txt` file from User Test Case 6. In this SQL database, There are 4 separate tables. The first 3 tables store the unique values for `CMTE_ID`, `ZIP_CODE` and `TRANSACTION_DATE`. The fourth table stores each transaction as a new record. By use of foreign keys, the tables can be linked together to display relevant data to appropiate users.  
 
 
 
