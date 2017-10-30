@@ -33,8 +33,8 @@ The test cases are validated by executing the `run_tests.sh` file, located in `.
 |  1        | 7         | OTHER_ID       | Empty or Not             |           
 |  2        | 14        | TRANSACTION_DT | Date Validity             |             
 |  3        | 14        | ZIP_CODE       | Between 5 to 9 digits    |           
-|  4        | 7         | cmte_id        | Empty or 9-character alpha-numeric code |
-|  5        | 7         | trans_amt      | Empty, Integer or Float  |          
+|  4        | 7         | CMTE_ID        | Empty or 9-character alpha-numeric code |
+|  5        | 7         | TRANSACTION_AMT| Empty, Integer or Float  |          
 |  6        | 13        | Multiple       | Multiple                 |         
 
 ## Test Values
