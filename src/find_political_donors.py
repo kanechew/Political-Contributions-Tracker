@@ -97,9 +97,9 @@ def process_output_1(lines_list):
         groups = line.split('|')
 
         # Check 3 initial input conditions
-        if not ('|'.join(groups[15:16])):                               # Check if OTHER_ID is empty
-            if '|'.join(groups[0:1]):                                   # Check if CMTE_ID is empty
-                if '|'.join(groups[14:15]):                             # Check if TRANS_AMT is empty
+        if not ('|'.join(groups[15:16])):                               # Check if other_id is empty
+            if '|'.join(groups[0:1]):                                   # Check if cmte_id is empty
+                if '|'.join(groups[14:15]):                             # Check if trans_amt is empty
 
                     # Extract relevant substrings from line
                     cmte_id             = '|'.join(groups[0:1])
