@@ -9,7 +9,7 @@
 6. [Example](README.md#example)
 7. [Built With](README.md#built-with)
 8. [Contributing](README.md#contributing)
-9. [Authur](README.md#author)
+9. [Author](README.md#author)
 10. [License](README.md#license)
 11. [Acknowledgements](README.md#acknowledgements)
 11. [Links](README.md#links)
@@ -90,5 +90,6 @@ N.A
 
 * [PyCharm](https://www.jetbrains.com/pycharm/) - Python IDE
 
+## FAQ
 
 
