@@ -92,6 +92,6 @@ N.A
 
 ## FAQ
 
-For more information about the 
+More about the programming methodology and source code - see the [TECHNICALNOTES.md](TECHNICALNOTES) file for details
 
 
