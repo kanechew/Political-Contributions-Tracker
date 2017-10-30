@@ -2,10 +2,10 @@
 
 ## Table of Contents
 1. [Introduction](README.md#introduction)
-2. [Challenge summary](README.md#challenge-summary)
-3. [Details of challenge](README.md#details-of-challenge)
-4. [Input file](README.md#input-file)
-5. [Output files](README.md#output-files)
+2. [Getting Started](README.md#challenge-summary)
+3. [Usage](README.md#details-of-challenge)
+4. [Input File](README.md#input-file)
+5. [Output Files](README.md#output-files)
 6. [Example](README.md#example)
 7. [Writing clean, scalable and well-tested code](README.md#writing-clean-scalable-and-well-tested-code)
 8. [Repo directory structure](README.md#repo-directory-structure)
@@ -47,13 +47,13 @@ Running the shell script will produce two .txt files:
 * medianvals_by_zip.txt
 * medianvals_by_date.txt
 
-## medianvals_by_zip.txt
+### medianvals_by_zip.txt
 
-### Description
+#### Description
 
-### Format
+#### Format
 
-### Test Sample
+#### Test Sample
 
 ## medianvals_by_date.txt
 
