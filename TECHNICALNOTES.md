@@ -41,7 +41,7 @@ At the same time, Dictionaries of lists provide greater flexibility and versatib
 Two dictionaries of dictionaries were used to store the total and median transaction for each unqiue pair of `cmte_id` and `transaction_dt`
 
 ### Choice of Algorithm
-For the extraction of 5 relevant variable values `CMTE_ID`, `ZIP_CODE`, `TRANSACTION_DT`, `TRANSACTION_AMT`and `OTHER_ID`, it was tempting to use regular expressions to parse the lines of the inout file.
+For the extraction of 5 relevant variable values `CMTE_ID`, `ZIP_CODE`, `TRANSACTION_DT` and `TRANSACTION_AMT`, it was tempting to use regular expressions to parse the lines of the inout file.
 
 But since each line of text contains a fixed number of pipe delimiters, it is efficient to use simple string operations to extract substrings at fixed/regular intervals.
 
