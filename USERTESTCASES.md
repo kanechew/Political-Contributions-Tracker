@@ -37,4 +37,4 @@ The test cases are validated by executing the 'run_tests.sh' file, located in `.
 |  6        | 13        | Multiple       | Multiple                 |         
 
 ## Test Values
-The test values are collated in [Test Values](test-values.pdf)
+The test values are collated in [Test Values](test values.pdf)
