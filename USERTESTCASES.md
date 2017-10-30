@@ -41,7 +41,7 @@ The test cases are validated by executing the `run_tests.sh` file, located in `.
 The test values are collated in [Test-Values.pdf](Test-Values.pdf).
 
 ## Input File Considerations
-The following considerations were given as part of the date problem:
+The following considerations were given as part of the data problem:
 
 ### OTHER_ID
 * Because we are only interested in individual contributions, we only want records that have the field, OTHER_ID, set to empty * If the OTHER_ID field contains any other value, ignore the entire record and don't include it in any calculation
