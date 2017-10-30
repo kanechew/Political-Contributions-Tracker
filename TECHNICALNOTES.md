@@ -12,13 +12,8 @@
 5. [Computational Efficiency](TECHNICALNOTES.md#computational-efficiency)
 6. [Alternative Implementation](TECHNICALNOTES.md#alternative-implementation)
 
-1. A numbered list
-    1. A nested numbered list
-    2. Which is numbered
-2. Which is numbered
-
 ## Introduction
-
+This document describes some of the key programming methodology and philosphy that are espoused and implemented in the python source code.
 
 ## Naming Convention
 Where applicable, naming convention for variables and functions adhere to PEP 8 - Style Guide for Python Code
@@ -26,6 +21,7 @@ Where applicable, naming convention for variables and functions adhere to PEP 8 
 Inline Comments and docstrings are appended to aid code readability.
 
 ## Design Considerations
+There are several design considerations made during the formulation of the data problem and the eventual code implementation.
 
 ### Packages
 Absolute imports were used where applicable.
@@ -42,10 +38,10 @@ Dictionaries of lists were chosen to store the relevant variables, with `cmte_id
 
 At the same time, Dictionaries of lists provide greater flexibility and versatibility for future data processing needs. 
 
-Two dictionaries of dictionaries were used to store the total and median transaction for each unqiue pair of 'cmte_id' and 'transaction_dt'
+Two dictionaries of dictionaries were used to store the total and median transaction for each unqiue pair of `cmte_id` and `transaction_dt`
 
 ### Choice of Algorithm
-For the extraction of 5 relevant variable values 'CMTE_ID, ZIP_CODE, TRANSACTION_DT, TRANSACTION_AMT, OTHER_ID', it was tempting to use regular expressions to parse the lines of the inout file.
+For the extraction of 5 relevant variable values `CMTE_ID`, `ZIP_CODE`, `TRANSACTION_DT`, `TRANSACTION_AMT`and `OTHER_ID`, it was tempting to use regular expressions to parse the lines of the inout file.
 
 But since each line of text contains a fixed number of pipe delimiters, it is efficient to use simple string operations to extract substrings at fixed/regular intervals.
 
