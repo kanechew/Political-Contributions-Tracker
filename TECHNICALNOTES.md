@@ -4,7 +4,7 @@
 1. [Introduction](TECHNICALNOTES.md#introduction)
 2. [Naming Convention](TECHNICALNOTES.md#naming-convention)
 3. [Design Considerations](TECHNICALNOTES.md#design-considerations)
-⋅⋅3a. Ordered sub-list[Packages](TECHNICALNOTES.md#packages)
+  3a. Ordered sub-list[Packages](TECHNICALNOTES.md#packages)
 5. [Input Considerations](TECHNICALNOTES.md#input-considerations)
 6. [Computational Efficiency](TECHNICALNOTES.md#computational-efficiency)
 7. [Alternative Implementation](TECHNICALNOTES.md#alternative-implementation)
