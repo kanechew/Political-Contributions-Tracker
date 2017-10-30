@@ -4,16 +4,17 @@
 1. [Introduction](README.md#introduction)
 2. [Getting Started](README.md#getting-started)
 3. [Usage](README.md#usage)
-4. [Input File](README.md#input-file)
-5. [Output Files](README.md#output-files)
-6. [User Test Cases](README.md#user-test-cases)
-7. [Built With](README.md#built-with)
-8. [Contributing](README.md#contributing)
-9. [Author](README.md#author)
-10. [License](README.md#license)
-11. [Acknowledgements](README.md#acknowledgements)
-11. [Links](README.md#links)
-11. [FAQ](README.md#faq)
+4. [Python Packages](README.md#python-packages)
+5. [Input File](README.md#input-file)
+6. [Output Files](README.md#output-files)
+7. [User Test Cases](README.md#user-test-cases)
+8. [Built With](README.md#built-with)
+9. [Contributing](README.md#contributing)
+10. [Author](README.md#author)
+11. [License](README.md#license)
+12. [Acknowledgements](README.md#acknowledgements)
+13. [Links](README.md#links)
+14. [FAQ](README.md#faq)
 
 ## Introduction
 This program extracts and calculates individual contributions towards political campaigns from financial data downloaded from the Federal Election Commission.
@@ -30,8 +31,8 @@ This program extracts and calculates individual contributions towards political 
 * No installation required locally
 * Download the Github folder to execute `run.sh`, `run_tests.sh` or `find_political_donors.py` locally
 
-### Python Packages
-
+##Python Packages
+The following python packages are used in the program:
 ```
 from collections import defaultdict
 from collections import OrderedDict
