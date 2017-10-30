@@ -16,7 +16,7 @@
 11. [FAQ](README.md#faq)
 
 ## Introduction
-Track political campaign contributions based on data from the Federal Election Commission
+This program extracts and calculates individual contributions towards political campaigns from finance data downloaded from the Federal Election Commission.
 
 ## Getting Started
 
@@ -28,12 +28,19 @@ Track political campaign contributions based on data from the Federal Election C
 ### Installation
 
 * No local installation required. 
-* Download the folder ___  
+* Download the Github folder to execute `run.sh`, `run_tests.sh` or `find_political_donors.py` locally.
 
-## Usage
+## Usage (For Mac)
 
-$ chmod +x run.sh to make the script executable.
-$ ./run.sh" to activate the script.
+To execute `run_tests.sh`
+1. Open Terminal Application
+2. Nagivate to folder `.\insight_testsuite`
+3. Execute the following command `$ sh run_tests.sh`
+
+To execute `run.sh`
+1. Open Terminal Application
+2. Nagivate to root folder
+3. Execute the following command `$ sh run.sh`
 
 ## Input File
 The input file, `itcont.txt` is in pipe-demlimited format and conform to the data dictionary as described by the FEC.
@@ -88,10 +95,10 @@ N.A
 
 ## Links
 
-N.A
+* [Finance Data for U.S. Elections](http://classic.fec.gov/finance/disclosure/ftpdet.shtml)
 
 ## FAQ
 
-More about the programming methodology and source code - see the [TECHNICALNOTES.md](TECHNICALNOTES) file for details
+* To find out about the programming methodology and source code - see the [TECHNICALNOTES.md](TECHNICALNOTES) file for details
 
 
