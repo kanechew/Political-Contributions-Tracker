@@ -1,17 +1,12 @@
 # Technical Notes
 
 ## Table of Contents
-1. [Introduction](README.md#introduction)
-2. [Naming Convention](README.md#challenge-summary)
-3. [Design Considerations](README.md#details-of-challenge)
-4. [](README.md#input-file)
-5. [Output files](README.md#output-files)
-6. [Example](README.md#example)
-7. [Writing clean, scalable and well-tested code](README.md#writing-clean-scalable-and-well-tested-code)
-8. [Repo directory structure](README.md#repo-directory-structure)
-9. [Testing your directory structure and output format](README.md#testing-your-directory-structure-and-output-format)
-10. [Instructions to submit your solution](README.md#instructions-to-submit-your-solution)
-11. [FAQ](README.md#faq)
+1. [Introduction](TECHNICALNOTES.md#introduction)
+2. [Naming Convention](TECHNICALNOTES.md#naming-convention)
+3. [Design Considerations](TECHNICALNOTES.md#details-of-challenge)
+4. [Input Considerations](TECHNICALNOTES.md#input-file)
+5. [Computational Efficiency](TECHNICALNOTES.md#output-files)
+6. [Alternative Implementation](TECHNICALNOTES.md#example)
 
 ## Introduction
 
@@ -49,7 +44,7 @@ But since each line of text contains a fixed number of pipe delimiters, it is ef
 
 ## Computational Efficiency
 
-## Database Implementation
+## Alternative Implementation
 
 
 
