@@ -63,7 +63,7 @@ The input file, `itcont.txt` is in pipe-demlimited format and conform to the dat
 If you want to run/test the program with a different input file, you need to edit the name and location of the input file within the `python find_political_donors.py`:
 
 `
-# User Specified Input and Output Files
+### User Specified Input and Output Files
 # -------------------------------------
 input_file      = 'itcont.txt'
 `
