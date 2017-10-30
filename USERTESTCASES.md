@@ -20,21 +20,21 @@ Test Case 6 specifically tests the functionality of the program to write the sec
 The input file and expected output files for each test case are stored in separate folders within the `insight_testsuite` folder.
 
 ### Example
-Files for Test Case 1 are found in './insight_testsuite/tests/usertest_1'.
+The respective files for Test Case 1 are found in `./insight_testsuite/tests/usertest_1`.
 
 ## Test Validation
-The test cases are validated by executing the 'run_tests.sh' file, located in `./insight_testsuite`.
+The test cases are validated by executing the `run_tests.sh` file, located in `./insight_testsuite`.
 
 ## Test Variables
 
 | Test Case | Row Count | Test Variables | Input Consideration      |
 | ----------| ----------| -------------- | -------------------------| 
 |  1        | 7         | other_id       | Empty or Not             |           
-|  2        | 14        | trans_dt       | Date Validty             |             
+|  2        | 14        | trans_dt       | Date Validity             |             
 |  3        | 14        | zip_code       | Between 5 to 9 digits    |           
 |  4        | 7         | cmte_id        | Empty or 9-character alpha-numeric code |
 |  5        | 7         | trans_amt      | Empty, Integer or Float  |          
 |  6        | 13        | Multiple       | Multiple                 |         
 
 ## Test Values
-The test values are collated in [Test Values](Test-Values.pdf)
+The test values are collated in [Test-Values.pdf](Test-Values.pdf)
