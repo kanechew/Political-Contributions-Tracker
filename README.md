@@ -64,7 +64,7 @@ If you want to run/test the program with a different input file, you need to edi
 
 ```
 ### User Specified Input and Output Files
-# -------------------------------------
+# ---------------------------------------
 input_file      = 'itcont.txt'
 ```
 
@@ -93,13 +93,13 @@ Each line of this file contain these fields:
 Note:
 * Median and Total amount of contributions should be rounded to the whole dollar (drop anything below $.50 and round anything from $.50 and up to the next dollar)
 
-## medianvals_by_date.txt
+### medianvals_by_date.txt
 The program also writes to a second output file named `medianvals_by_date.txt`. 
 
-### Description
+#### Description
 Each line of this second output file lists every unique combination of date and recipient from the input file and then the calculated total contributions and median contribution for that combination of date and recipient.
 
-### Format
+#### Format
 The fields on each pipe-delimited line of medianvals_by_date.txt should be date, recipient, total number of transactions, total amount of contributions and median contribution. 
 
 Each line of this file contain these fields:
@@ -112,12 +112,12 @@ Each line of this file contain these fields:
 Note:
 * Median and Total amount of contributions should be rounded to the whole dollar (drop anything below $.50 and round anything from $.50 and up to the next dollar)
 
-### Differences between first and second output files
+#### Differences between first and second output files
 * Unlike the first output file, the second output file have lines sorted alphabetical by recipient and then chronologically by date.
 * Also, unlike the first output file, every line in the medianvals_by_date.txt file is represented by a unique combination of day and recipient -- there should be no duplicates.
 
-### User Test Cases
-
+## User Test Cases
+Extended user test cases were created for the validation of the python program - see the [USERTESTCASES.md](USERTESTCASES.md) file for details
 
 ## Built With
 
