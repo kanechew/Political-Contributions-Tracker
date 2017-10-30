@@ -20,7 +20,7 @@ This program extracts and calculates individual contributions towards political 
 
 ## Getting Started
 
-### Prerequistes
+### Prerequisites
 
 * Linux or Unix system
 * If you are using a Windows system, consider tools such as Cygwin or Docker, or a free online IDE such as Cloud9
@@ -40,15 +40,15 @@ Use a Terminal session to execute the `.sh` and `.py` files:
 3. Open the `Terminal` application
 
 To execute `run_tests.sh`
-* Nagivate to folder `.\insight_testsuite`
+* Navigate to folder `.\insight_testsuite`
 * Execute the following command `~$ sh run_tests.sh`
 
 To execute `run.sh`
-* Nagivate to root folder
+* Navigate to root folder
 * Execute the following command `~$ sh run.sh`
 
 To execute `find_political_donors.py`
-* Nagivate to folder `.\src`
+* Navigate to folder `.\src`
 * Execute the following command `~$ python find_political_donors.py`
 
 If you do not have the python statistics module installed, you would need to execute the following commands first:
@@ -56,7 +56,7 @@ If you do not have the python statistics module installed, you would need to exe
 * `~$sudo python -m pip install statistics`
 
 ## Input File
-The input file, `itcont.txt` is in pipe-demlimited format and conform to the data dictionary as described by the FEC.
+The input file, `itcont.txt` is in pipe-delimited format and conforms to the data dictionary as described by the FEC.
 
 * See [indiv_header_file.csv](indiv_header_file.csv) file for details of the header
 * See [Links](README.md#links) for more information about input file format
@@ -79,7 +79,7 @@ Running the shell script will produce two .txt files:
 The program writes to the first output file named `medianvals_by_zip.txt`. 
 
 #### Description
-For each input file line, the running median of contributions, total number of transactions and total amount of contributions streaming in so far for that recipient and zip code is calcualted. The calculated fields is formatted into a pipe-delimited line and written to this ouput file in the same order as the input line appeared in the input file.
+For each input file line, the running median of contributions, total number of transactions and total amount of contributions streaming in so far for that recipient and zip code is calculated. The calculated fields is formatted into a pipe-delimited line and written to this output file in the same order as the input line appeared in the input file.
 
 #### Format
 The first output file medianvals_by_zip.txt should contain the same number of lines or records as the input data file minus any records that were ignored as a result of the [input file considerations](USERTESTCASES.md#input-file-considerations).
