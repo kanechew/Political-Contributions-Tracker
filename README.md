@@ -27,8 +27,8 @@ This program extracts and calculates individual contributions towards political 
 
 ### Installation
 
-* No installation required locally.
-* Download the Github folder to execute `run.sh`, `run_tests.sh` or `find_political_donors.py` locally.
+* No installation required locally
+* Download the Github folder to execute `run.sh`, `run_tests.sh` or `find_political_donors.py` locally
 
 ## Usage (For Mac)
 
@@ -85,9 +85,9 @@ For each input file line, the running median of contributions, total number of t
 The first output file medianvals_by_zip.txt should contain the same number of lines or records as the input data file minus any records that were ignored as a result of the [input file considerations](TECHNICALNOTES.md#input-file-considerations).
 
 Each line of this file contain these fields:
-* Recipient of the contribution (or `cmte_id` from the input file)
-* 5-digit zip code of the contributor (or the first five characters of the `zip_code` field from the input file)
-* Running median of contributions received by recipient from the contributor's zip code streamed in so far. 
+* Recipient of the contribution (or CMTE_ID from the input file)
+* 5-digit zip code of the contributor (or the first five characters of the ZIP_CODE field from the input file)
+* Running median of contributions received by recipient from the contributor's zip code streamed in so far
 * Total number of transactions received by recipient from the contributor's zip code streamed in so far
 * Total amount of contributions received by recipient from the contributor's zip code streamed in so far
 
@@ -104,8 +104,8 @@ Each line of this second output file lists every unique combination of date and 
 The fields on each pipe-delimited line of medianvals_by_date.txt should be date, recipient, total number of transactions, total amount of contributions and median contribution. 
 
 Each line of this file contain these fields:
-* Recipient of the contribution (or `cmte_id` from the input file)
-* Date of the contribution (or `transaction_date` from the input file)
+* Recipient of the contribution (or CMTE_ID from the input file)
+* Date of the contribution (or TRANSACTION_DATE from the input file)
 * Median of contributions received by recipient on that date. 
 * Total number of transactions received by recipient on that date
 * Total amount of contributions received by recipient on that date
