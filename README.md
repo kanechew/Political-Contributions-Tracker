@@ -59,8 +59,7 @@ The input file, `itcont.txt` is in pipe-demlimited format and conform to the dat
 
 See [indiv_header_file.csv](indiv_header_file.csv) file for details of the header.
 
-For more details on the file format:
-http://classic.fec.gov/finance/disclosure/metadata/DataDictionaryContributionsbyIndividuals.shtml
+See [Links](README.md#links) for more information about input file format.
 
 If you want to run/test the program with a different input file, you need to edit the name and location of the input file within the `python find_political_donors.py`:
 
@@ -92,6 +91,9 @@ Each line of this file contain these fields:
 * Total number of transactions received by recipient from the contributor's zip code streamed in so far
 * Total amount of contributions received by recipient from the contributor's zip code streamed in so far
 
+Note:
+* Median and Total amount of contributions should be rounded to the whole dollar (drop anything below $.50 and round anything from $.50 and up to the next dollar)
+
 ## medianvals_by_date.txt
 The program also writes to a second output file named `medianvals_by_date.txt`. 
 
@@ -103,11 +105,13 @@ The fields on each pipe-delimited line of medianvals_by_date.txt should be date,
 
 Each line of this file contain these fields:
 * Recipient of the contribution (or `cmte_id` from the input file)
-* Date of the contribution (or `transaction_dt` from the input file)
-    median of contributions received by recipient on that date. Median calculations should be rounded to the whole dollar (drop anything below $.50 and round anything from $.50 and up to the next dollar)
-    total number of transactions received by recipient on that date
-    total amount of contributions received by recipient on that date
+* Date of the contribution (or `transaction_date` from the input file)
+* Median of contributions received by recipient on that date. 
+* Total number of transactions received by recipient on that date
+* Total amount of contributions received by recipient on that date
 
+Note:
+* Median and Total amount of contributions should be rounded to the whole dollar (drop anything below $.50 and round anything from $.50 and up to the next dollar)
 
 ### Differences between first and second output files
 Unlike the first output file, the second output file have lines sorted alphabetical by recipient and then chronologically by date.
@@ -128,7 +132,7 @@ N.A
 
 ## Author
 
-* Kane Chew
+* [Kane Chew](https://www.linkedin.com/in/kanechew/) 
 
 ## License
 
@@ -141,6 +145,8 @@ N.A
 ## Links
 
 * [Finance Data for U.S. Elections](http://classic.fec.gov/finance/disclosure/ftpdet.shtml)
+
+* [Details of Input File Format](http://classic.fec.gov/finance/disclosure/metadata/DataDictionaryContributionsbyIndividuals.shtml)
 
 ## FAQ
 
