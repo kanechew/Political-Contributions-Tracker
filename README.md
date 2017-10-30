@@ -45,7 +45,7 @@ To execute `run.sh`
 ## Input File
 The input file, `itcont.txt` is in pipe-demlimited format and conform to the data dictionary as described by the FEC.
 
-See [indiv_header_file.csv](header file) file for details of the header.
+See [indiv_header_file.csv](headerfile) file for details of the header.
 
 For more details on the file format:
 http://classic.fec.gov/finance/disclosure/metadata/DataDictionaryContributionsbyIndividuals.shtml
