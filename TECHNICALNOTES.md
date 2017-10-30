@@ -11,6 +11,11 @@
 6. [Computational Efficiency](TECHNICALNOTES.md#computational-efficiency)
 7. [Alternative Implementation](TECHNICALNOTES.md#alternative-implementation)
 
+1. A numbered list
+    1. A nested numbered list
+    2. Which is numbered
+2. Which is numbered
+
 ## Introduction
 
 
