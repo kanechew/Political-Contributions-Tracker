@@ -82,14 +82,16 @@ N.A
 
 * This project is licensed under the GNU AGPL v3.0 License - see the [LICENSE.md](LICENSE) file for details
 
-## Acknowledgments
+## Acknowledgements
 
 * Folks from INSIGHT
 
 ## Links
 
-* [PyCharm](https://www.jetbrains.com/pycharm/) - Python IDE
+N.A
 
 ## FAQ
+
+For more information about the 
 
 
