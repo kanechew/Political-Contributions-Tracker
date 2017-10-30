@@ -3,10 +3,11 @@
 ## Table of Contents
 1. [Introduction](TECHNICALNOTES.md#introduction)
 2. [Naming Convention](TECHNICALNOTES.md#naming-convention)
-3. [Design Considerations](TECHNICALNOTES.md#details-of-challenge)
-4. [Input Considerations](TECHNICALNOTES.md#input-file)
-5. [Computational Efficiency](TECHNICALNOTES.md#output-files)
-6. [Alternative Implementation](TECHNICALNOTES.md#example)
+3. [Design Considerations](TECHNICALNOTES.md#design-considerations)
+4. [Packages](TECHNICALNOTES.md#packages)
+5. [Input Considerations](TECHNICALNOTES.md#input-considerations)
+6. [Computational Efficiency](TECHNICALNOTES.md#computational-efficiency)
+7. [Alternative Implementation](TECHNICALNOTES.md#alternative-implementation)
 
 ## Introduction
 
