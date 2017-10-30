@@ -17,7 +17,7 @@ This document describes some of the key programming methodology and philosphy th
 ## Naming Convention
 
 * Where applicable, naming convention for variables and functions adhere to PEP 8 - Style Guide for Python Code
-* Inline Comments and docstrings are appended to aid code readability.
+* Inline Comments and docstrings are appended to aid code readability
 
 ## Design Considerations
 There are several design considerations made during the formulation of the data problem and the eventual code implementation.
