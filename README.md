@@ -2,7 +2,7 @@
 
 ## Table of Contents
 1. [Introduction](README.md#introduction)
-2. [Getting Started](README.md#challenge-summary)
+2. [Getting Started](README.md#Getting-Started)
 3. [Usage](README.md#details-of-challenge)
 4. [Input File](README.md#input-file)
 5. [Output Files](README.md#output-files)
@@ -10,7 +10,9 @@
 7. [Built With](README.md#writing-clean-scalable-and-well-tested-code)
 8. [Contributing](README.md#repo-directory-structure)
 9. [Arthur](README.md#testing-your-directory-structure-and-output-format)
-10.[License](README.md#instructions-to-submit-your-solution)
+10. [License](README.md#instructions-to-submit-your-solution)
+11. [Acknowledgements](README.md#faq)
+11. [LINKS](README.md#faq)
 11. [FAQ](README.md#faq)
 
 ## Introduction
