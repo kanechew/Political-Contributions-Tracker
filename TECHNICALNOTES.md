@@ -15,8 +15,8 @@
 This document describes some of the key programming methodology and philosphy that are espoused and implemented in the python source code.
 
 ## Naming Convention
-* Where applicable, naming convention for variables and functions adhere to PEP 8 - Style Guide for Python Code
 
+* Where applicable, naming convention for variables and functions adhere to PEP 8 - Style Guide for Python Code
 * Inline Comments and docstrings are appended to aid code readability.
 
 ## Design Considerations
