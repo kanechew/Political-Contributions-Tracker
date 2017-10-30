@@ -8,7 +8,7 @@
     2. [Abstraction & Encapsulation](TECHNICALNOTES.md#abstraction-&-encapsulation)
     3. [Choice of Data Structures](TECHNICALNOTES.md#choice-of-data-structures)
     4. [Choice of Algorithm](TECHNICALNOTES.md#choice-of-algorithm)
-4. [Input Considerations](TECHNICALNOTES.md#input-considerations)
+4. [Input Considerations](TECHNICALNOTES.md#input-file-considerations)
 5. [Computational Efficiency](TECHNICALNOTES.md#computational-efficiency)
 6. [Alternative Implementation](TECHNICALNOTES.md#alternative-implementation)
 
@@ -45,7 +45,7 @@ For the extraction of 5 relevant variable values `CMTE_ID`, `ZIP_CODE`, `TRANSAC
 
 But since each line of text contains a fixed number of pipe delimiters, it is efficient to use simple string operations to extract substrings at fixed/regular intervals.
 
-## Input Considerations
+## Input File Considerations
 
 ## Computational Efficiency
 
